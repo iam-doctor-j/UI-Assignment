@@ -1,0 +1,34 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.carousel-indicators {
+    margin-bottom: -2rem;
+}
+
+.carousel-indicators li {
+    background-color: black;
+    opacity: 0.4;
+    height: 8px;
+    width: 7px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.carousel-indicators .active {
+    background-color: var(--info);
+}
+
+.far, .fas{
+    font-size: 1.8rem;
+}
+
+.btn {
+    font-size: 0.8rem;
+}
+
+.icon {
+    font-size: 1rem;
+}
